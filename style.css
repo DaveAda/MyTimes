@@ -1,16 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 header{
-  display: flex;
-  align-items: center;
+	display: flex;
+	border: 1px solid black;
+	box-sizing: border-box;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0;
 }
 
-header span{
-    font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
-    color: MediumAquamarine;
-    align-items: center;
+.logo{
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 40px;
 }
 
-header a{
-  color: black;
+.logo span{
+	color: MediumAquamarine;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	padding-right: 30px;
+}
+
+nav a{
+	color: black;
+	padding: 0 10px;
 }
