@@ -1,0 +1,16 @@
+header{
+  display: flex;
+  align-items: center;
+}
+
+header span{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: MediumAquamarine;
+    align-items: center;
+}
+
+header a{
+  color: black;
+}
