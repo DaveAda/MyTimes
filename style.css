@@ -3,34 +3,104 @@
 	padding: 0;
 }
 
-header{
+/*HEADER*/
+header, nav, .logo{
 	display: flex;
-	border: 1px solid black;
-	box-sizing: border-box;
 	font-family: Verdana;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
 }
 
-.logo{
-	display: flex;
+header{
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+nav, .logo{
 	align-items: center;
-	flex-grow: 1;
-	padding-left: 40px;
 }
 
-.logo span{
+.logo p{
 	color: MediumAquamarine;
 }
 
+.logo{
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
 nav{
-	display: flex;
-	align-items: center;
-	padding-right: 30px;
+	padding-right: 40px;
 }
 
 nav a{
 	color: black;
-	padding: 0 10px;
+	padding: 0 10px;3
+}
+/*END HEADER*/
+/*MAIN ALL*/
+.main{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 32px 0 40px 0;
+}
+.column{
+	margin-right: 32px;
+}
+
+.content{
+	padding: 20px 0;
+	font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.caption{
+	color: white;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+}
+
+h2{
+	padding: 10px 0;
+}
+/*END MAIN ALL*/
+/*COLUMN ONE*/
+.column.large{
+	width: 630px;
+}
+
+.large #steak{
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+	height: 302px;
+	color: white;
+	text-align: left;
+	font-family: Georgia;
+	font-size: 40px;
+	font-weight: bold;
+	display: flex;
+}
+
+.large #earth{
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+	height: 300px;
+}
+
+.large #camera{
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+	height: 300px;
+}
+/*END COLUMN ONE*/
+/*COLUMN TWO*/
+.column.medium{
+	width: 300px;
+}
+/*COLUMN TWO*/
+.column.small{
+	width: 240px;
 }
